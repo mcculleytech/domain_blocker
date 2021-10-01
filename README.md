@@ -14,7 +14,7 @@ The script works by editing the hosts file on a Windows computer. The hosts file
 
 ## Anything I should know before I fire it off?
 
-Yes! This script needs two things in order to run. The first is obvious, the system needs Python on it. The second, you need to run this script as Admin on your Windows box since it does write to the hosts file which is an important file and only available to the Administrator.
+Yes! This script needs two things in order to run. The first is obvious, the system needs Python on it. The second, you need to run this script as Admin on your Windows box since it does write to the hosts file which is an important file and only available to the Administrator. Also, If you add websites, it's best to add www.domainname.com since most browsers add that part, and if you have the browser open, then block the site, you may need to close it out and try again.
 
 
 ## Neat! But what else can it do?
