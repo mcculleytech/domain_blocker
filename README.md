@@ -12,6 +12,11 @@ Because I need to practice my python skills, that's why! I also work part time w
 The script works by editing the hosts file on a Windows computer. The hosts file, for those who don't know, is like the local address book for your computer to resolve website IP addresses. This script will map whatever domain (for instance www.facebook.com) you enter to the localhost's IP address (127.0.0.1).This means that your computer will think 'www.facebook.com' lives on your local machine, so unless you're Zuckerberg on their webserver, you won't be able to get to facebook.
 
 
+## Anything I should know before I fire it off?
+
+Yes! This script needs two things in order to run. The first is obvious, the system needs Python on it. The second, you need to run this script as Admin on your Windows box since it does write to the hosts file which is an important file and only available to the Administrator.
+
+
 ## Neat! But what else can it do?
 
 I'm glad you asked, I tried to add a little more functionality to the script by allowing you to 'unblock' sites, add more sites, as well as list the existing sites that are blocked. 
@@ -19,4 +24,4 @@ I'm glad you asked, I tried to add a little more functionality to the script by 
 
 ## Any plans to improve
 
-I do have a couple of thoughts on improvements to explore some different modules in python. For instance a gui that I could code with tkinter or adding/removing multiple lists at one time. If I keep the CLI, I could opt for some color in the interface and make things look a little nicer. Any suggestions? Let me know.
+I do have a couple of thoughts on improvements to explore some different modules in python. For instance a gui that I could code with tkinter or adding/removing multiple lists at one time. If I keep the CLI, I could opt for some color in the interface and make things look a little nicer. I could also port it to Linux with a literally one change (I think). Any suggestions? Let me know.
