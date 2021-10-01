@@ -3,10 +3,10 @@ import os
 import re
 
 # path to hosts file on windows
-file_path = r'C:\Windows\System32\etc\hosts'
+file_path = r'C:\Windows\System32\drivers\etc\hosts'
 
 # Uncomment the following two lines if you would like a copy of the hosts file for whatever reason.
-# copy_file_path = r'C:\Windows\System32\etc\hosts_copy'
+# copy_file_path = r'C:\Windows\System32\drivers\etc\hosts'
 # shutil.copyfile(file_path,copy_file_path)
 
 
